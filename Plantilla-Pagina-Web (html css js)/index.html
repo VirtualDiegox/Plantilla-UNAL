@@ -54,11 +54,11 @@
  
 <body>
   <!-- Servicios -->
-  <div id="servicios"></div>
+  <div id="services"></div>
   <script>
     fetch('https://raw.githubusercontent.com/VirtualDiegox/Plantilla-UNAL/refs/heads/master/Plantilla-Pagina-Web%20(html%20css%20js)/services.html')
       .then(response => response.text())
-      .then(html => document.getElementById('servicios').innerHTML = html)
+      .then(html => document.getElementById('services').innerHTML = html)
       .catch(error => console.error('Error loading services:', error));
   </script>
 
@@ -99,7 +99,7 @@
       .then(html => document.getElementById('footer-unal').innerHTML = html)
       .catch(error => console.error('Error loading header:', error));
   </script>
-
+  
   <!-- librerías javascript especial_______________________________________________________________________________________ -->
 
   <!-- <script src="https://cdns.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script> -->
@@ -118,6 +118,7 @@
   <!-- flex-slider -->
   <script src="/typo3conf/ext/newsslider/Resources/Public/Scripts/jquery.flexslider-min.js?1602067235"></script>
   <!-- librerías especial_______________________________________________________________________________________ -->
+  
 </body>
 
 </html>
