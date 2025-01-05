@@ -54,11 +54,11 @@
  
 <body>
   <!-- Servicios -->
-  <div id="services"></div>
+  <div id="servicios"></div>
   <script>
     fetch('https://raw.githubusercontent.com/VirtualDiegox/Plantilla-UNAL/refs/heads/master/Plantilla-Pagina-Web%20(html%20css%20js)/services.html')
       .then(response => response.text())
-      .then(html => document.getElementById('services').innerHTML = html)
+      .then(html => document.getElementById('servicios').innerHTML = html)
       .catch(error => console.error('Error loading services:', error));
   </script>
 
